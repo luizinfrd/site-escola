@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+  }
+
+  #cab {
+    background-image: url(../img/fundo.gif);
+    padding: 20px;
+  }
+
+  #logo {
+    float: left;
+  }
+
+  #social {
+    float: right;
+  }
+
+  #menu {
+    clear: both;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  #menu span {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  #menu a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .fContato {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 500px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  .fContato label {
+    display: block;
+    font-weight: bold;
+  }
+
+  .fContato .botao {
+    background-color: #008800;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+
+  /* Responsividade */
+@media (max-width: 768px) {
+    #cxLateral, #main {
+      float: none;
+      width: 100%;
+    }
+  }

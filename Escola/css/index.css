@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+  }
+
+  p {
+    color: #666;
+    line-height: 1.5;
+  }
+
+  #cab {
+    background-image: url(../img/fundo.gif);
+    padding: 20px;
+  }
+
+  #logo {
+    float: left;
+  }
+
+  #social {
+    float: right;
+  }
+
+  #menu {
+    clear: both;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  #menu span {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  #menu a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  #cxLateral {
+    float: right;
+    width: 30%;
+    padding: 20px;
+  }
+
+  #lateral{
+    border: 1px solid #ddd;
+  }
+
+  #lateral h1{
+    text-align: center;
+  }
+
+  #lateral article{
+    margin-left: 5px;
+  }
+
+  #main {
+    margin-right: 33%;
+    padding: 20px;
+  }
+
+  #main article {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+  }
+
+  #img {
+    float: right; /* Posiciona a imagem à direita */
+    position: absolute;
+    left: 75%;
+    top: 75%
+  }
+
+  footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+
+  /* Responsividade */
+@media (max-width: 768px) {
+    #cxLateral, #main, #img {
+      float: none;
+      width: 100%;
+    }
+  }
